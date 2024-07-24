@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment-02</title>
   <link rel="stylesheet" href="./style/assign.css">
+  <script src="https://kit.fontawesome.com/9af30000b6.js" crossorigin="anonymous"></script>
 </head>
 <body class=".inter-normal">
   <header class="header container">
@@ -16,14 +17,15 @@
         <p class="home">Home</p>
         <p class="nav-item">Service</p>
         <p class="nav-item" >Contact</p>
-        <p class="nav-item" >About</p>
-      </div>      
+        <p class="nav-item" >About</p>        
+      </div> 
+      <div class="ham-burger"><i class="fas fa-bars"></i></div>
     </nav>
     <div class="banner">
       <div class="banner-des">
         <h1>Get body in <br><span style="font-style: italic;">shape</span> & <br> stay healthy</h1>
         <p class="huge">A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!</p>
-        <div class="btn-primary">
+        <div class="btn-primary btn-sm">
           <button class="btn-join">Join Club Now!</button>
         <button class="download">Download App</button>
         </div>
@@ -61,13 +63,186 @@
         <div><img src="./B10A2-versatile-ui/images/image 5.png" alt="">
           <h4 class="habbit">Weightloss</h4>
           <p class="fitness">We believe fitness should be accessible to everyone</p>
-        </div>
-
-        
+        </div>        
       </div>
     </section>
+    <section class="container extra-mile-container">
+      <div class="extra-mile">
+        <div class="exta-mile-des">
+          <h2 class="Mile">Run an Extra <br>Mile Easily</h2>
+          <p class="workouts">We believe fitness should be accessible to everyone, everywhere, regardless of <br>income or access to a gym. With hundreds of professional workouts.</p>
+          <button class="btn-join btn-primary btn-now">Join Now</button>
+        </div>
+        <div>
+          <img class="run" src="./B10A2-versatile-ui/images/run.jpg" width="300px" height="300px" alt="">
+        </div>
+      </div>
 
-
+    </section>
+    <section class="container BMI">
+      <h2 class="bmi-title">BMI Calculator</h2>
+      <p class="bmi-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+      <div class="bmi-content">
+        <div>
+          <h4 class="bmi-chart">BMI Calculator Chart</h4>        
+          <table>
+            <thead>
+              <tr>
+                <th>BMI</th>
+                <th>Weight Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Below 18.5</td>
+                <td>Underweight</td>
+              </tr>
+              <tr>
+                <td>18.5-24.9</td>
+                <td>Healthy</td>
+              </tr>
+              <tr>
+                <td>25.0-29.0</td>
+                <td>Overweight</td>
+              </tr>
+              <tr>
+                <td>30-and above</td>
+                <td>Obese</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="bmi-cal-container">
+         <H4 class="bmi-calculation"> Calculate Your BMI</H4>
+         <P class="bmi-cal-des">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym.</P>
+         <form action="">
+          <input type="text" placeholder="Height/cm">
+          <input type="text" placeholder="Weight/kg">
+          <input type="number" name="" id=""placeholder="Age">
+          <select name="sex" id="sex">sex
+            <option value="male">sex</option>
+            <!-- <option value="male">male</option>
+            <option value="male">female</option> -->
+          </select>
+        </form>
+          <select name="" id="row-3"><option value="">Select an activity factor</option></select> <br>      
+          <button class="btn-primary btn-join btn-cal">Calculate</button>
+        </div>
+      </div>
+    </section>
+    <section class="container BMI">
+      <h2 class="bmi-title">Meet Our Team</h2>
+      <P class="bmi-des">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym.</P>
+      <div class="team">
+        <div class="item-1 bg-image">
+          <h4 class="habbit-1" >Jerome Bell</h4>
+          <p>Trainer</p>
+        </div>
+        <div class="item-2 bg-image">
+          <h4 class="habbit-1">Cameron Williamson</h4>
+          <p>Trainer</p>
+        </div>
+        <div class="item-3 bg-image">
+          <h4 class="habbit-1">Darrel Steward</h4>
+          <p>Trainer</p>
+        </div>
+        <div class="item-4 bg-image">
+          <h4 class="habbit-1">Dianne Russell</h4>
+          <p>Trainer</p>
+        </div>
+        <div class="item-5 bg-image">
+          <h4 class="habbit-1">Cody Fisher</h4>
+          <p>Trainer</p>
+        </div>
+        <div class="item-6 bg-image">
+          <h4 class="habbit-1">Theresa Webb</h4>
+          <p>Trainer</p>
+        </div>
+      </div>        
+    </section>
+    <!-- contact section -->
+    <section>
+      <div class="contact-container">
+        <div class="testimonial-title">
+          <h2 class="contact-us">Contact us</h2>
+          <p class="contact-des">If you are interested to avail any training related to body fit or physical health, dont hesitate to contact us.</p>
+        </div>
+        <div class="form-parent">
+            <form class="form-tag">
+              <h4 class="contact-form">Contact form</h4>
+              <br>
+              <div class="fullname-email-parent">
+                <div class="full-name">
+                  <h4 class="full-name-title">Full Name</h4>
+                  <input type="text" required placeholder="write your name">
+                </div>
+                <div>
+                  <h4 class="e-mail">E-mail</h4>
+                  <input type="email" name="" id="" placeholder="your e-mail" required>
+                </div>
+              </div>
+              <br>
+              <h4 class="subject-text">Subject</h4>
+              <br>
+              <input class="subject-input" type="text">
+              <br>
+              <h4 class="subject-text">Message</h4>
+              <br>
+              <div class="form-text"><textarea class="form-text-area" name="" id=""></textarea></div>
+              <br>          
+              <input type="submit" value="Send Message">
+            </form>
+            <div> 
+           <h3>Our Locatiom map</h3>
+           <br>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14602.680817996743!2d90.4057056!3d23.794755549999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c70c15ea1de1%3A0x97856381e88fb311!2sBanani%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1721802943127!5m2!1sen!2sbd" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>      
+        <div class="form-address-parent">
+          <div class="form-single-address">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><Address>Bananai, Dhaka</Address></p>
+          </div>      
+          <div class="form-single-address">
+            <i class="fas fa-phone"></i>
+            <p>Phone</p>
+          </div>
+          <div class="form-single-address">         
+            <i class="far fa-paper-plane"></i>
+            <p><span>E-mail</span></p>
+          </div>
+          <div class="form-single-address">          
+            <i class="fas fa-globe"></i>
+            <p>Website</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-</body>
+    <footer class="container">
+      <div class="footer-content">
+      <div class="last-logo-cont" >
+        <h3 class="logo last-logo">Fitness</h3>  
+        <P class="meet-des">We believe fitness should be accessible to everyone, everywhere,  regardless of  income or access to a gym. With hundreds of professional workouts.</P>
+      </div>
+      <div class="get-service">
+        <h3 class="get">Get started</h3>
+        <p class="service">Service</p>
+        <p class="service">Contact us</p>
+        <p class="service">Affiliate program</p>
+        <p class="service">About us</p>
+      </div>
+      <div class="get-fitness">
+        <h3 class="get">Get started</h3>
+        <p class="service">Fitness</p>
+        <p class="service">Platform</p>
+        <p class="service" >Workedout Library</p>
+        <p class="service">App Design</p>
+      </div>
+    </div>
+    <hr>
+    <div class="right">All right reserved &COPY; Fitness 2024</div>  
+    </footer>
+       
+ </body>
 </html>
